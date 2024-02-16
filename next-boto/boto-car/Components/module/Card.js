@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Location from "../icons/Location"
 
 function Card({ id, name, model, year, distance, location, price, description, image, category }) {
   return (
@@ -18,7 +19,7 @@ function Card({ id, name, model, year, distance, location, price, description, i
         </div>
         <div className="flex items-center gap-2">
           <div>{location}</div>
-          <div>Icon</div>
+          <div><Location /></div>
         </div>
       </div>
     </Link>

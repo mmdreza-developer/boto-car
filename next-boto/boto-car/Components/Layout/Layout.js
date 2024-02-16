@@ -2,7 +2,7 @@ import Link from "next/link"
 
 function Layout({ children }) {
     return (
-        <div className="flex flex-col justify-between min-h-screen">
+        <div className="flex flex-col justify-between min-h-screen gap-4">
             <header className="flex justify-between flex-col items-center">
                 <Link href="/" className=" p-4 rounded bg-yellow-300 px-10">
                     <h2 className="text-center border-b border-gray-600 text-2xl font-bold">BOTOCAR</h2>
